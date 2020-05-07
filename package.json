@@ -1,0 +1,34 @@
+{
+  "name": "tailwind-playground",
+  "version": "1.0.0",
+  "description": "Tailwind and Tailwind UI playground. Building beautiful stuff quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "modal:dev": "parcel ./tailwindui/components/modal/index.html ",
+    "modal:prod": "parcel build  ./tailwindui/components/modal/index.html --out-dir ./tailwindui/components/modal/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMayol/tailwind-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexMayol/tailwind-playground/issues"
+  },
+  "homepage": "https://github.com/AlexMayol/tailwind-playground#readme",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.3.0",
+    "autoprefixer": "^9.7.6",
+    "tailwindcss": "^1.4.5",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "parcel-bundler": "^1.12.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
